@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mom_email_template/static/css/main.989b98ab.chunk.css",
+    "main.js": "/mom_email_template/static/js/main.7af878df.chunk.js",
+    "main.js.map": "/mom_email_template/static/js/main.7af878df.chunk.js.map",
+    "runtime-main.js": "/mom_email_template/static/js/runtime-main.fe2401a5.js",
+    "runtime-main.js.map": "/mom_email_template/static/js/runtime-main.fe2401a5.js.map",
+    "static/js/2.39331b69.chunk.js": "/mom_email_template/static/js/2.39331b69.chunk.js",
+    "static/js/2.39331b69.chunk.js.map": "/mom_email_template/static/js/2.39331b69.chunk.js.map",
+    "index.html": "/mom_email_template/index.html",
+    "precache-manifest.cfa838a186493b940827225441968148.js": "/mom_email_template/precache-manifest.cfa838a186493b940827225441968148.js",
+    "service-worker.js": "/mom_email_template/service-worker.js",
+    "static/css/main.989b98ab.chunk.css.map": "/mom_email_template/static/css/main.989b98ab.chunk.css.map",
+    "static/js/2.39331b69.chunk.js.LICENSE.txt": "/mom_email_template/static/js/2.39331b69.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mom_email_template/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe2401a5.js",
+    "static/js/2.39331b69.chunk.js",
+    "static/css/main.989b98ab.chunk.css",
+    "static/js/main.7af878df.chunk.js"
+  ]
+}
