@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.click_to_copy{
+  z-index: 1;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color:green;
+}
+
+.english, .chinese_paragraph{
+  display: block;
+  border: 1px grey solid;
+  height: 40%;
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+}
+.chinese_paragraph{
+  font-size: 25px;
+}
+.questions button {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  height: 35px;
+  font-size: 23px;
+}
+.questions input {
+  display: block;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.questions label{
+  font-size: 24px;
+  font-weight: 350;
+  padding: 1%;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section{
+  margin: 6% 0 0 0;
+}
