@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mom_email_template/static/css/main.989b98ab.chunk.css",
-    "main.js": "/mom_email_template/static/js/main.339fa6e6.chunk.js",
-    "main.js.map": "/mom_email_template/static/js/main.339fa6e6.chunk.js.map",
+    "main.css": "/mom_email_template/static/css/main.f10a7bcd.chunk.css",
+    "main.js": "/mom_email_template/static/js/main.a4c77baa.chunk.js",
+    "main.js.map": "/mom_email_template/static/js/main.a4c77baa.chunk.js.map",
     "runtime-main.js": "/mom_email_template/static/js/runtime-main.fe2401a5.js",
     "runtime-main.js.map": "/mom_email_template/static/js/runtime-main.fe2401a5.js.map",
     "static/js/2.39331b69.chunk.js": "/mom_email_template/static/js/2.39331b69.chunk.js",
     "static/js/2.39331b69.chunk.js.map": "/mom_email_template/static/js/2.39331b69.chunk.js.map",
     "index.html": "/mom_email_template/index.html",
-    "precache-manifest.28c18264d6ec0495ac67f39bfb9326f3.js": "/mom_email_template/precache-manifest.28c18264d6ec0495ac67f39bfb9326f3.js",
+    "precache-manifest.6f7abe7b3e7bb1d6147ee618aeeb925c.js": "/mom_email_template/precache-manifest.6f7abe7b3e7bb1d6147ee618aeeb925c.js",
     "service-worker.js": "/mom_email_template/service-worker.js",
-    "static/css/main.989b98ab.chunk.css.map": "/mom_email_template/static/css/main.989b98ab.chunk.css.map",
+    "static/css/main.f10a7bcd.chunk.css.map": "/mom_email_template/static/css/main.f10a7bcd.chunk.css.map",
     "static/js/2.39331b69.chunk.js.LICENSE.txt": "/mom_email_template/static/js/2.39331b69.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/mom_email_template/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe2401a5.js",
     "static/js/2.39331b69.chunk.js",
-    "static/css/main.989b98ab.chunk.css",
-    "static/js/main.339fa6e6.chunk.js"
+    "static/css/main.f10a7bcd.chunk.css",
+    "static/js/main.a4c77baa.chunk.js"
   ]
 }
