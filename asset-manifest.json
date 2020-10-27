@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mom_email_template/static/css/main.989b98ab.chunk.css",
-    "main.js": "/mom_email_template/static/js/main.4aef99fd.chunk.js",
-    "main.js.map": "/mom_email_template/static/js/main.4aef99fd.chunk.js.map",
+    "main.js": "/mom_email_template/static/js/main.339fa6e6.chunk.js",
+    "main.js.map": "/mom_email_template/static/js/main.339fa6e6.chunk.js.map",
     "runtime-main.js": "/mom_email_template/static/js/runtime-main.fe2401a5.js",
     "runtime-main.js.map": "/mom_email_template/static/js/runtime-main.fe2401a5.js.map",
     "static/js/2.39331b69.chunk.js": "/mom_email_template/static/js/2.39331b69.chunk.js",
     "static/js/2.39331b69.chunk.js.map": "/mom_email_template/static/js/2.39331b69.chunk.js.map",
     "index.html": "/mom_email_template/index.html",
-    "precache-manifest.e52476343fc2be8ea6ae8f0d76e5d385.js": "/mom_email_template/precache-manifest.e52476343fc2be8ea6ae8f0d76e5d385.js",
+    "precache-manifest.28c18264d6ec0495ac67f39bfb9326f3.js": "/mom_email_template/precache-manifest.28c18264d6ec0495ac67f39bfb9326f3.js",
     "service-worker.js": "/mom_email_template/service-worker.js",
     "static/css/main.989b98ab.chunk.css.map": "/mom_email_template/static/css/main.989b98ab.chunk.css.map",
     "static/js/2.39331b69.chunk.js.LICENSE.txt": "/mom_email_template/static/js/2.39331b69.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fe2401a5.js",
     "static/js/2.39331b69.chunk.js",
     "static/css/main.989b98ab.chunk.css",
-    "static/js/main.4aef99fd.chunk.js"
+    "static/js/main.339fa6e6.chunk.js"
   ]
 }
