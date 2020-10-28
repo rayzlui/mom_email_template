@@ -210,56 +210,57 @@ export class MomWorkHelper extends React.Component{
     <h1>你好媽媽</h1>
     <section className={'questions'}>
       <section>
-        <label className='title'>我清空了房間裡的垃圾</label>
-        <button className={this.setColor('trash','Control Room A-C')} onClick={()=>this.toggleKeys('trash', 'Control Room A-C', 'chinese_trash', '控制室A-C')}>控制室A-C</button>
-        <button className={this.setColor('trash','Edit Booth 1-6')} onClick={()=>this.toggleKeys('trash', 'Edit Booth 1-6', 'chinese_trash', '編輯攤位1-6' )}>編輯攤位1-6</button>
-        <button className={this.setColor('trash','Studio A/B')} onClick={()=>this.toggleKeys('trash', 'Studio A/B', 'chinese_trash', '工作室A / B')}>工作室A / B</button>
-        <button className={this.setColor('trash','Video Edit 1-5')} onClick={()=>this.toggleKeys('trash', 'Video Edit 1-5','chinese_trash', '影片編輯1-5')}>影片編輯1-5</button>
-        <button className={this.setColor('trash','Media Ingest')} onClick={()=>this.toggleKeys('trash', 'Media Ingest','chinese_trash', '媒體巢')}>媒體巢</button>
-        <button className={this.setColor('trash','TV Media Op Center')} onClick={()=>this.toggleKeys('trash', 'TV Media Op Center', 'chinese_trash', '電視媒體運營中心')}>電視媒體運營中心</button>
-        <button className={this.setColor('trash','TV Radio/Maintenance Shop')} onClick={()=>this.toggleKeys('trash', 'TV Radio/Maintenance Shop', 'chinese_trash', '電視廣播/維修店')}>電視廣播/維修店</button>
-        <button className={this.setColor('trash','News Department Cubicles including chairs')} onClick={()=>this.toggleKeys('trash', 'News Department Cubicles including chairs', 'chinese_trash', '新聞部隔間，包括椅子')}>新聞部隔間，包括椅子</button>
+        <label className='title'>我清空了房間裡的垃圾 <br/>(Cleaned + sanitized all door knobs + empty trash from following: )</label>
+        <button className={this.setColor('trash','Control Room A-C')} onClick={()=>this.toggleKeys('trash', 'Control Room A-C', 'chinese_trash', '控制室A-C')}>控制室A-C <br/>(Control Room A-C)</button>
+        <button className={this.setColor('trash','Edit Booth 1-6')} onClick={()=>this.toggleKeys('trash', 'Edit Booth 1-6', 'chinese_trash', '編輯攤位1-6' )}>編輯攤位1-6 <br/>(Edit Booth 1-6)</button>
+        <button className={this.setColor('trash','Studio A/B')} onClick={()=>this.toggleKeys('trash', 'Studio A/B', 'chinese_trash', '工作室A / B')}>工作室A / B <br/>(Studio A/B)</button>
+        <button className={this.setColor('trash','Video Edit 1-5')} onClick={()=>this.toggleKeys('trash', 'Video Edit 1-5','chinese_trash', '影片編輯1-5')}>影片編輯1-5 <br/>(Video Edit 1-5)</button>
+        <button className={this.setColor('trash','Media Ingest')} onClick={()=>this.toggleKeys('trash', 'Media Ingest','chinese_trash', '媒體巢')}>媒體巢 <br/>(Media Ingest)</button>
+        <button className={this.setColor('trash','TV Media Op Center')} onClick={()=>this.toggleKeys('trash', 'TV Media Op Center', 'chinese_trash', '電視媒體運營中心')}>電視媒體運營中心 <br/>(TV Media Op Center)</button>
+        <button className={this.setColor('trash','TV Radio/Maintenance Shop')} onClick={()=>this.toggleKeys('trash', 'TV Radio/Maintenance Shop', 'chinese_trash', '電視廣播/維修店')}>電視廣播/維修店 <br/>(TV Radio/Maintenance Shop)</button>
+        <button className={this.setColor('trash','News Department Cubicles including chairs')} onClick={()=>this.toggleKeys('trash', 'News Department Cubicles including chairs', 'chinese_trash', '新聞部隔間，包括椅子')}>新聞部隔間，包括椅子 <br/>(News Department Cubicles including chairs)</button>
       </section>
       
       <section className='floors'>
-        <label className='title'>四樓有這麼多人</label>
-        <label>會員船</label>
+        <label className='title'>四樓有這麼多人 <br/>(Fourth floor had the following:)</label>
+        <br/>
+        <label>會員船 <br/>(Membership)</label>
         <input type='number' onInput={(e) => this.addFourthFloor('Membership',e.target.value, '會員船')}/>
-        <label>女士浴室</label>
+        <label>女士浴室 <br/>(Women's bathroom)</label>
         <input type='number' onInput={(e) => this.addFourthFloor("Women's bathroom",e.target.value, '女士浴室')}/>
-        <label>通過IT服務台</label>
+        <label>通過IT服務台 <br/>(IT Help Desk)</label>
         <input type='number' onInput={(e) => this.addFourthFloor("IT Help Desk",e.target.value, '通過IT服務台')}/>
-        <label>通過財務</label>
+        <label>通過財務 <br/>(Finance) </label>
         <input type='number' onInput={(e) => this.addFourthFloor("Finance",e.target.value, '通過財務')}/>
       </section>
 
       <section>
-        <label className='title'>我洗了這些東西</label>
-        <button className={this.setColor('sanitized_objects', 'all microphones')}  onClick={()=>this.toggleKeys('sanitized_objects', 'all microphones', 'chinese_sanitized_objects', '所有麥克風')}>所有麥克風</button>
-        <button className={this.setColor('sanitized_objects', 'top of speeakers')}  onClick={()=>this.toggleKeys('sanitized_objects', 'top of speeakers', 'chinese_sanitized_objects', '尖頂者')}>尖頂者</button>
-        <button className={this.setColor('sanitized_objects', 'light switches')}  onClick={()=>this.toggleKeys('sanitized_objects', 'light switches', 'chinese_sanitized_objects', '電燈開關')}>電燈開關</button>
+        <label className='title'>我洗了這些東西 <br/>(Sanitized following:)</label>
+        <button className={this.setColor('sanitized_objects', 'all microphones')}  onClick={()=>this.toggleKeys('sanitized_objects', 'all microphones', 'chinese_sanitized_objects', '所有麥克風')}>所有麥克風 <br/>(all microphones)</button>
+        <button className={this.setColor('sanitized_objects', 'top of speeakers')}  onClick={()=>this.toggleKeys('sanitized_objects', 'top of speeakers', 'chinese_sanitized_objects', '尖頂者')}>尖頂者 <br/>(top of speeakers)</button>
+        <button className={this.setColor('sanitized_objects', 'light switches')}  onClick={()=>this.toggleKeys('sanitized_objects', 'light switches', 'chinese_sanitized_objects', '電燈開關')}>電燈開關 <br/>(light switches)</button>
       </section>
 
       <section>
-        <label className='title'>我洗了飯廳廚房洗手間</label>
-        <button className={this.setColor('cleaned_rooms', '5th floor lunchroom/kitchen/restroom')} onClick={()=>this.toggleKeys('cleaned_rooms', '5th floor lunchroom/kitchen/restroom', 'chinese_cleaned_rooms', '第五層')}>第五層</button>
-        <button className={this.setColor('cleaned_rooms', '4th floor lunchroom/kitchen/restroom')} onClick={()=>this.toggleKeys('cleaned_rooms', '4th floor lunchroom/kitchen/restroom', 'chinese_cleaned_rooms', '四樓')}>四樓</button>
+        <label className='title'>我洗了飯廳廚房洗手間 <br/>(Cleaned + sanitized + removed trash + mopped:)</label>
+        <button className={this.setColor('cleaned_rooms', '5th floor lunchroom/kitchen/restroom')} onClick={()=>this.toggleKeys('cleaned_rooms', '5th floor lunchroom/kitchen/restroom', 'chinese_cleaned_rooms', '第五層')}>第五層 <br/>(5th floor lunchroom/kitchen/restroom)</button>
+        <button className={this.setColor('cleaned_rooms', '4th floor lunchroom/kitchen/restroom')} onClick={()=>this.toggleKeys('cleaned_rooms', '4th floor lunchroom/kitchen/restroom', 'chinese_cleaned_rooms', '四樓')}>四樓 <br/>(4th floor lunchroom/kitchen/restroom)</button>
       </section>
 
       <section>
-        <label className='title'>我擦拭高觸感區域</label>
+        <label className='title'>我擦拭高觸感區域 <br/>(Wiped + sanitized all high touch areas in elevator + lobbies)</label>
         <button className={this.setColor('high_touch')} onClick={()=>this.toggleKeys('high_touch')}>{!this.state['high_touch'] ? '是' : '沒有'}</button>
         </section>
 
       <section>
-        <label className='title'>我吸塵</label>
+        <label className='title'>我吸塵 <br/>(I vacuumed): </label>
         <button className={this.setColor('vacuumed')} onClick={()=>this.toggleKeys('vacuumed')}>{!this.state['vacuumed'] ? '是' : '沒有'}</button>
       </section>
 
       <section>
-      <label className='title'>我拖地：</label>
-        <button className={this.setColor('mopped', 'freight elevator')} onClick={()=>this.toggleKeys('mopped', 'freight elevator', 'chinese_mopped', '貨運電梯')}>貨運電梯</button>
-        <button className={this.setColor('mopped', 'bathroom')} onClick={()=>this.toggleKeys('mopped', 'bathroom', 'chinese_mopped', '浴室')}>浴室</button>
+      <label className='title'>我拖地 <br/>(I mopped)：</label>
+        <button className={this.setColor('mopped', 'freight elevator')} onClick={()=>this.toggleKeys('mopped', 'freight elevator', 'chinese_mopped', '貨運電梯')}>貨運電梯 <br/>(freight elevator)</button>
+        <button className={this.setColor('mopped', 'bathroom')} onClick={()=>this.toggleKeys('mopped', 'bathroom', 'chinese_mopped', '浴室')}>浴室 <br/>(bathroom)</button>
       </section>
 
     </section>
