@@ -32,15 +32,13 @@ code {
   width: 80%;
   margin-left: 10%;
   text-align: left;
-}
-.chinese_paragraph{
-  font-size: 25px;
+  font-size: 30px;
 }
 .questions button {
   display: block;
   width: 80%;
   margin-left: 10%;
-  height: 35px;
+  height: 70px;
   font-size: 23px;
 }
 .questions input {
